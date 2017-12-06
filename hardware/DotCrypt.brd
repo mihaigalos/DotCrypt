@@ -4037,6 +4037,15 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <wire x1="3.6068" y1="24.2688" x2="4.9998" y2="24.2688" width="0.1524" layer="1"/>
 <wire x1="4.9998" y1="24.2688" x2="5.0038" y2="24.2728" width="0.1524" layer="1"/>
+<contactref element="JP3" pad="USB_M"/>
+<wire x1="3.6068" y1="24.2688" x2="2.706" y2="24.2688" width="0.1524" layer="1"/>
+<wire x1="2.706" y1="24.2688" x2="2.54" y2="24.4348" width="0.1524" layer="1"/>
+<via x="2.54" y="24.4348" extent="1-16" drill="0.3"/>
+<wire x1="2.54" y1="24.4348" x2="2.54" y2="25.5524" width="0.1524" layer="16"/>
+<wire x1="2.54" y1="25.5524" x2="4.0132" y2="27.0256" width="0.1524" layer="16"/>
+<via x="4.0132" y="27.0256" extent="1-16" drill="0.3"/>
+<wire x1="4.0132" y1="27.0256" x2="4.0132" y2="29.7576" width="0.1524" layer="1"/>
+<wire x1="4.0132" y1="29.7576" x2="4.1308" y2="29.8752" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB_D+">
 <contactref element="D2" pad="C"/>
@@ -4044,6 +4053,15 @@ design rules under a new name.</description>
 <wire x1="8.8392" y1="23.9268" x2="8.89" y2="24.0188" width="0.1524" layer="1"/>
 <wire x1="8.8392" y1="23.9268" x2="7.8858" y2="23.9268" width="0.1524" layer="1"/>
 <wire x1="7.8858" y1="23.9268" x2="7.5692" y2="24.2942" width="0.1524" layer="1"/>
+<contactref element="JP3" pad="USB_P"/>
+<wire x1="7.5692" y1="24.2942" x2="7.5692" y2="25.1968" width="0.1524" layer="1"/>
+<wire x1="7.5692" y1="25.1968" x2="7.4676" y2="25.2984" width="0.1524" layer="1"/>
+<via x="7.4676" y="25.2984" extent="1-16" drill="0.3"/>
+<wire x1="7.4676" y1="25.2984" x2="7.4676" y2="25.7556" width="0.1524" layer="16"/>
+<wire x1="7.4676" y1="25.7556" x2="6.1468" y2="27.0764" width="0.1524" layer="16"/>
+<via x="6.1468" y="27.0764" extent="1-16" drill="0.3"/>
+<wire x1="6.1468" y1="27.0764" x2="6.1468" y2="29.8592" width="0.1524" layer="1"/>
+<wire x1="6.1468" y1="29.8592" x2="6.1308" y2="29.8752" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <errors>

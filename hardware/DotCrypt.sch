@@ -14486,6 +14486,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="201.93" y="33.02"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="D-"/>
+<wire x1="213.36" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<label x="220.98" y="68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
@@ -14496,6 +14501,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="212.09" y1="35.56" x2="222.25" y2="35.56" width="0.1524" layer="91"/>
 <junction x="212.09" y="35.56"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="D+"/>
+<wire x1="213.36" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="220.98" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
