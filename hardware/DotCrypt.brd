@@ -41,7 +41,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1639,6 +1639,9 @@ v0.1.1</text>
 <text x="5.4102" y="2.9464" size="0.508" layer="21">SCL
 RxD</text>
 <text x="8.1788" y="2.9718" size="0.508" layer="21">V+</text>
+<dimension x1="1.3208" y1="34.5694" x2="1.2954" y2="1.4986" x3="-9.970096875" y3="18.042659375" textsize="1.778" layer="48"/>
+<dimension x1="1.3208" y1="34.5694" x2="13.3604" y2="34.5694" x3="7.3406" y3="43.7896" textsize="1.778" layer="48"/>
+<dimension x1="2.2352" y1="1.4478" x2="12.3952" y2="1.4478" x3="7.3152" y3="-6.0198" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="Seeed-OPL-ic">
