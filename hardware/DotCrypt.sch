@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14210,6 +14210,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC@1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="U1" gate="G$1" pin="VCC@2"/>
+<wire x1="2.54" y1="134.62" x2="2.54" y2="137.16" width="0.1524" layer="91"/>
+<junction x="2.54" y="137.16"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="AVCC"/>
