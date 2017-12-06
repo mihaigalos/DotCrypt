@@ -1632,8 +1632,8 @@
 <text x="0.7366" y="2.7432" size="0.508" layer="21">SDA
 TxD</text>
 <text x="8.2296" y="2.794" size="0.508" layer="21">GND</text>
-<text x="0.3302" y="18.8976" size="0.6096" layer="22" rot="MR180">DotCrypt v0.1.1</text>
-<text x="2.0066" y="17.6276" size="0.6096" layer="22" rot="MR180">01/2018</text>
+<text x="0" y="18.8722" size="0.508" layer="22" rot="MR180">DotCrypt v0.1.1</text>
+<text x="1.27" y="17.907" size="0.508" layer="22" rot="MR180">01/2018</text>
 </plain>
 <libraries>
 <library name="Seeed-OPL-ic">
